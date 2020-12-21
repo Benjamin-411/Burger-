@@ -657,6 +657,9 @@
     html {
         font-size: 50%;
     }
+    /* .btn-pres {
+        font-size: 1.4rem;
+    } */
     #about .about .about-image {
         margin-left: 0rem;
     }
@@ -701,6 +704,9 @@
     html {
         font-size: 50%;
     }
+    .btn-pres {
+        font-size: 1.4rem;
+    }
     #about .about .about-image {
         margin-left: 5rem;
     }
@@ -714,18 +720,27 @@
         width: 23rem;
         margin-left: 17rem;
     }
+    #president .container {
+        padding: 5rem 10rem 2rem 4rem;
+    }
     #procedure .procedure>p {
         font-size: 2rem;
         margin-top: -3rem;
     }
     #testimony .testimony .testimonials-images img {
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
     #foot .footer .footer-content .cali p {
-        margin-left: 8rem;
+        margin-left: 6rem;
     }
     #foot .footer .footer-content .new p {
-        margin-left: 10rem;
+        margin-left: 8rem;
+    }
+    #foot .footer .footer-content .new a {
+        margin-left: -5rem;
+    }
+    #foot .footer .footer-content .cali a {
+        margin-left: -7rem;
     }
     #foot .footer .footer-content .feed input[type=email] {
         margin-left: 22rem;
@@ -733,9 +748,18 @@
     }
 }
 
-@media (max-width: 390px) {
+@media(max-width: 411px) {
+    #president .container {
+        padding: 7rem 10rem 2rem 4rem;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 390px) {
     html {
         font-size: 50%;
+    }
+    #header .header-content h6 span {
+        font-size: 2rem;
     }
     #about .about .about-image {
         margin-left: 5rem;
@@ -764,10 +788,10 @@
         margin-left: 0rem;
     }
     #foot .footer .footer-content .cali p {
-        margin-left: 5rem;
+        margin-left: 4.5rem;
     }
     #foot .footer .footer-content .new p {
-        margin-left: 7rem;
+        margin-left: 6.5rem;
     }
     #foot .footer .footer-content .feed p {
         font-size: 2rem;
@@ -778,12 +802,44 @@
     }
 }
 
+@media(max-height: 667px) {
+    #procedure .procedure>p {
+        margin-top: 0rem;
+    }
+    #president .container {
+        padding: 1rem 10rem 2rem 4rem;
+    }
+}
+
 @media(max-width: 340px) {
     html {
         font-size: 50%;
     }
+    .p {
+        font-size: 1.5rem;
+    }
+    .h {
+        font-size: 1.7rem;
+    }
+    .p2 {
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+    .btn-pres {
+        padding: 1rem 2rem;
+    }
     #header {
         height: 35vh;
+    }
+    #header .header-content h2 {
+        font-size: 2rem;
+    }
+    #header .header-content h3 {
+        font-size: 2.5rem;
+        margin-top: -1.5rem;
+    }
+    #header .header-content h6 span {
+        font-size: 2rem;
     }
     #about .about .about-image {
         margin-left: 7rem;
@@ -797,22 +853,32 @@
         width: 12rem;
         margin-left: 12rem;
     }
+    #president .container {
+        padding: -7rem 10rem 2rem 4rem;
+    }
     #procedure .procedure {
         height: 25vh;
     }
     #procedure .procedure>h2 {
-        font-size: 20px;
+        font-size: 2rem;
+    }
+    #procedure .procedure>p {
+        font-size: 1.5rem;
     }
     #testimony .testimony .testimonials-images img {
         margin-left: -2rem;
     }
     #foot .footer .footer-content .cali p {
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     #foot .footer .footer-content .new p {
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
     #foot .footer .footer-content .feed p {
         font-size: 1.5rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 22rem;
+        width: 35rem;
     }
 }
