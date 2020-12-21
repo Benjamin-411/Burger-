@@ -1,0 +1,818 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    html {
+        font-size: 50%;
+    }
+    #header {
+        height: 70vh;
+    }
+    #nav-bar .nav-bar {
+        grid-template-columns: 15fr .3fr 9fr;
+    }
+    #nav-bar .h-num {
+        display: none;
+    }
+    #nav-bar .social {
+        padding-left: 17rem;
+        /* justify-self: end; */
+    }
+    #president .president {
+        height: 50vh;
+    }
+    #president .container {
+        padding: 40rem 10rem 2rem 4rem;
+    }
+    #about {
+        padding: 10rem 10rem;
+    }
+    #about .about .about-image {
+        margin-left: 0rem;
+    }
+    #about .about .about-image .main {
+        width: 50rem;
+        height: 70rem;
+    }
+    #about .about .about-image .mini {
+        width: 25rem;
+        height: 50rem;
+        margin-top: -45rem;
+        margin-left: 25rem;
+    }
+    #about .about-content img {
+        margin-top: 18rem;
+    }
+    #about .about-content>h2 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1160px) {
+    #about {
+        padding: 10rem 5rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1099px) {
+    #about {
+        padding: 10rem 4rem;
+    }
+    #about .about-content>h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1068px) {
+    #about {
+        padding: 10rem 2rem;
+    }
+    #about .about-content>h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
+    #header {
+        height: 70vh;
+    }
+    #nav-bar .nav-bar {
+        grid-template-columns: 15fr .3fr 9fr;
+    }
+    #nav-bar .h-num {
+        display: none;
+    }
+    #nav-bar .social {
+        padding-left: 15rem;
+        /* justify-self: end; */
+    }
+    #president .president {
+        height: 50vh;
+    }
+    #president .container {
+        padding: 30rem 10rem 2rem 4rem;
+    }
+    .p {
+        font-size: 4rem
+    }
+    .h {
+        font-size: 4.4rem;
+    }
+    .p2 {
+        font-size: 2.6rem;
+        line-height: 1.5;
+    }
+    #about {
+        padding: 10rem 1rem;
+    }
+    #about .about .about-image {
+        margin-left: 0rem;
+    }
+    #about .about .about-image .main {
+        width: 50rem;
+        height: 70rem;
+    }
+    #about .about .about-image .mini {
+        width: 25rem;
+        height: 50rem;
+        margin-top: -45rem;
+        margin-left: 25rem;
+    }
+    #about .about-content img {
+        margin-top: 18rem;
+    }
+    #about .about-content>h2 {
+        font-size: 4rem;
+    }
+}
+
+@media(max-width: 985px) {
+    html {
+        font-size: 50%;
+    }
+    #about {
+        padding: 1rem 8rem;
+    }
+    #about .about-content>h2 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 991px) {
+    /* Navigation */
+    html {
+        font-size: 50%;
+    }
+    #nav-bar {
+        padding: .5rem;
+    }
+    #nav-bar .nav-bar {
+        grid-template-columns: 3fr 2fr;
+    }
+    #nav-bar .social {
+        display: none;
+    }
+    #nav-bar .btn {
+        display: none;
+    }
+    #nav-bar img {
+        height: 3rem;
+        justify-self: end;
+    }
+    /* header */
+    #header {
+        height: 50vh;
+    }
+    #header .header-content {
+        padding-top: 10rem;
+    }
+    #header .header-content h2 {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    /* Burgers */
+    #burger-menu .burgers {
+        padding: 5rem 1rem;
+    }
+    .btn-primary {
+        margin: 0 1rem;
+    }
+    #burger-menu .burgers .burger-list {
+        display: block;
+    }
+    #burger-menu .burgers img {
+        margin-left: 2rem;
+    }
+    /* President */
+    #president .president {
+        display: block;
+        height: 50vh;
+    }
+    #president .container {
+        padding: 30rem 10rem 2rem 4rem;
+        /* padding-top: 50rem;
+        padding-left: 2rem; */
+    }
+    .p {
+        margin-top: 13rem;
+    }
+    /* About */
+    #about {
+        padding: 10rem 1rem;
+    }
+    /* #about .about {
+        /* grid-gap: 29rem; */
+    #about .about {
+        margin-top: 70rem;
+        /* max-width: 99.1rem; */
+    }
+    #about .about .about-image {
+        margin-left: 6rem;
+    }
+    #about .about .about-image .main {
+        width: 35rem;
+        height: 55rem;
+    }
+    #about .about .about-image .mini {
+        width: 17rem;
+        margin-left: 18rem;
+        margin-top: -35rem;
+        height: 40rem;
+    }
+    #about .about-content>h5 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    #about .about-content>h2 {
+        font-size: 4rem;
+    }
+    /* Testimonial */
+    #testimony .testimony .testimonials-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-bottom: 6rem;
+    }
+    #testimony .testimony .testimony-content p {
+        padding: 0 4rem;
+    }
+    /* footer */
+    #foot .footer {
+        padding: 0 1rem;
+    }
+    #foot .footer .footer-content .new h2 {
+        margin-left: 6rem
+    }
+    #foot .footer .footer-content .cali h2 {
+        margin-left: 30rem
+    }
+    #foot .footer .footer-content .cali {
+        margin-left: 4rem;
+    }
+    #foot .footer .footer-content .new {
+        margin-left: 2rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 6rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 30rem;
+    }
+    #foot .footer .footer-content .cali a {
+        margin-left: 35rem;
+    }
+    #foot .footer .footer-content>*:last-child {
+        grid-column: 1 / span 3;
+        margin-left: -22rem;
+        margin-top: -2rem;
+    }
+    #foot .footer .footer-content>*:last-child>h2 {
+        margin-left: -45rem;
+    }
+    #foot .footer .footer-content .new p,
+    #foot .footer .footer-content .cali p {
+        padding: 0;
+        width: 30rem;
+        font-size: 3rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        width: 50rem;
+        margin-left: -30rem;
+        height: 7rem;
+        font-size: 2rem;
+        border-radius: 4rem;
+    }
+    #foot .footer .footer-content .feed button[type=submit] {
+        height: 5rem;
+        border-radius: 4rem;
+        width: 15rem;
+        margin-left: -16rem;
+    }
+    #foot .footer .footer-content .feed p {
+        margin-left: -40rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 864px) {
+    #about .about .about-image {
+        margin-left: 2rem;
+    }
+    #foot .footer .footer-content .cali h2 {
+        margin-left: 20rem
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 20rem;
+    }
+    #foot .footer .footer-content .cali a {
+        margin-left: 15rem;
+    }
+    #foot .footer .footer-content>*:last-child>h2 {
+        margin-left: -35rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: -20rem;
+    }
+    #foot .footer .footer-content .feed p {
+        margin-left: -28rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 799px) {
+    html {
+        font-size: 50%;
+    }
+    #about .about .about-image {
+        margin-left: 1rem;
+    }
+    #procedure .procedure {
+        height: 50vh;
+    }
+    #procedure .procedure>h2 {
+        font-size: 6rem;
+    }
+    #procedure .procedure>p {
+        font-size: 3rem;
+    }
+    #foot .footer .footer-content .cali h2 {
+        margin-left: 15rem
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 15rem;
+    }
+    #foot .footer .footer-content .cali a {
+        margin-left: 10rem;
+    }
+    #foot .footer .footer-content>*:last-child>h2 {
+        margin-left: -30rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: -15rem;
+    }
+    #foot .footer .footer-content .feed p {
+        margin-left: -23rem;
+    }
+}
+
+
+/* @media(max-width: 975){
+    #about {
+        padding: 1rem 9rem;
+    }
+}
+@media(max-width: 965){
+    #about {
+        padding: 1rem 9rem;
+    }
+}
+@media(max-width: 985){
+    #about {
+        padding: 1rem 9rem;
+    }
+} */
+
+@media(max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    #header .header-content {
+        padding-top: 7rem;
+    }
+    #procedure .procedure>p {
+        top: 70%;
+        left: 40%;
+        transform: translate(-30%, -50%);
+    }
+    #procedure .procedure {
+        height: 50vh;
+    }
+    #about {
+        padding: 3rem 1rem;
+    }
+    #about .about {
+        display: block;
+        margin-top: 40rem;
+        width: 100%;
+    }
+    #about .about-content {
+        margin-left: 2rem;
+    }
+    /* #about .about .about-image {
+        margin-bottom: -10rem;
+    } */
+    #about .about .about-image .main {
+        width: 84rem;
+        height: 80rem;
+        margin-top: 30rem;
+    }
+    #about .about .about-image .mini {
+        width: 45rem;
+        height: 60rem;
+        margin-left: 39rem;
+        margin-top: -60rem;
+    }
+    #about .about-content>h5 {
+        margin-top: 14rem;
+        margin-bottom: 1rem;
+    }
+    #about .about-content>h2 {
+        font-size: 4rem;
+    }
+    #foot .footer {
+        padding: 0;
+    }
+    #foot .footer .footer-content {
+        display: block;
+    }
+    #foot .footer .footer-content .new h2 {
+        margin-left: -2rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 32rem;
+    }
+    #foot .footer .footer-content .cali h2 {
+        margin-left: -4rem
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 30rem;
+    }
+    #foot .footer .footer-content .cali a {
+        margin-left: -4rem;
+    }
+    #foot .footer .footer-content>*:last-child>h2 {
+        margin-left: 22rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 25rem;
+        width: 60rem;
+    }
+    #foot .footer .footer-content .feed p {
+        margin-left: 20rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 670px) and (max-width: 730px) {
+    #foot .footer .footer-content .cali p {
+        margin-left: 25rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 27rem;
+    }
+    #procedure .procedure>p {
+        font-size: 3rem;
+    }
+    #about .about .about-image .main {
+        width: 70rem;
+        height: 60rem;
+        margin-top: 30rem;
+    }
+    #about .about .about-image .mini {
+        width: 41.9rem;
+        height: 50rem;
+        margin-left: 28.2rem;
+        margin-top: -38rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 669px) {
+    #foot .footer .footer-content .cali p {
+        margin-left: 20rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 22rem;
+    }
+    #procedure .procedure>p {
+        font-size: 3rem;
+    }
+    #about .about .about-image {
+        margin-left: 7.8rem;
+    }
+    #about .about .about-image .main {
+        width: 60rem;
+        height: 50rem;
+        margin-top: 30rem;
+    }
+    #about .about .about-image .mini {
+        width: 34rem;
+        height: 40rem;
+        margin-left: 26.1rem;
+        margin-top: -32rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: -1rem;
+    }
+}
+
+@media(max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    /* Header */
+    #header {
+        height: 40vh;
+    }
+    #header .header-content h2 {
+        font-size: 4rem;
+    }
+    #header .header-content h3 {
+        font-size: 5rem;
+        margin-top: -3.5rem;
+    }
+    /* Burger-menu */
+    #burger-menu .burger-menu>h4 {
+        font-size: 3rem;
+    }
+    #burger-menu .burger-menu>h2 {
+        font-size: 3rem;
+    }
+    #burger-menu .burgers {
+        display: block;
+    }
+    #burger-menu .burgers .burger-list {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .text-h4 {
+        padding-top: 4rem;
+    }
+    /* president */
+    #president .president {
+        height: 40vh;
+    }
+    #president .president .pres-left {
+        margin-bottom: 2rem;
+    }
+    #president .container {
+        padding-top: 16rem;
+        padding-right: 0rem;
+        padding-left: 3rem;
+    }
+    .h {
+        font-size: 2rem;
+    }
+    .p2 {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+    /* About */
+    #about {
+        padding: 1rem 1rem;
+    }
+    #about .about {
+        display: block;
+    }
+    #about .about .about-image {
+        margin-top: -4rem;
+        margin-left: 10rem;
+    }
+    #about .about .about-image .main {
+        width: 50rem;
+        height: 40rem;
+        margin-top: 25rem;
+    }
+    #about .about .about-image .mini {
+        height: 30rem;
+        width: 24rem;
+        margin-left: 26rem;
+        margin-top: -26rem;
+    }
+    #about .about-content>h2 {
+        font-size: 30px;
+    }
+    #about .about-content>h5 {
+        margin-top: 2rem;
+    }
+    #about .about-content img {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+    /* procedure */
+    #procedure .procedure>h2 {
+        font-size: 35px;
+    }
+    #procedure .procedure>p {
+        font-size: 3rem;
+        margin-top: -1rem;
+    }
+    /* Testimonial */
+    #testimony .testimony .testimony-content h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #testimony .testimony .testimony-content p {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    #testimony .testimony {
+        padding: 2rem 0;
+    }
+    #testimony .testimony .testimonial-img {
+        margin-bottom: 5rem;
+    }
+    #testimony .testimony .testimonials-images {
+        margin-bottom: -8rem;
+        grid-template-columns: none;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: 14rem;
+    }
+    /* footer */
+    #foot .footer .footer-content .cali p {
+        margin-left: 19rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 21rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 549px) {
+    html {
+        font-size: 50%;
+    }
+    #about .about .about-image {
+        margin-left: 5rem;
+    }
+    #procedure .procedure>p {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: 10rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 13rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 15rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 22rem;
+        width: 60rem;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 499px) {
+    html {
+        font-size: 50%;
+    }
+    #about .about .about-image {
+        margin-left: 0rem;
+    }
+    #procedure .procedure>p {
+        font-size: 2rem;
+        margin-top: -3rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: 6rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 8rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 10rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 22rem;
+        width: 45rem;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 499px) {
+    #about .about .about-image {
+        margin-left: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 459px) {
+    #about .about .about-image {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 429px) and (max-width: 439px) {
+    #about .about .about-image {
+        margin-left: 1rem;
+    }
+}
+
+@media(max-width: 414px) {
+    html {
+        font-size: 50%;
+    }
+    #about .about .about-image {
+        margin-left: 5rem;
+    }
+    #about .about .about-image .main {
+        width: 40rem;
+        height: 40rem;
+        margin-top: 25rem;
+    }
+    #about .about .about-image .mini {
+        height: 30rem;
+        width: 23rem;
+        margin-left: 17rem;
+    }
+    #procedure .procedure>p {
+        font-size: 2rem;
+        margin-top: -3rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: 6rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 8rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 10rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 22rem;
+        width: 45rem;
+    }
+}
+
+@media (max-width: 390px) {
+    html {
+        font-size: 50%;
+    }
+    #about .about .about-image {
+        margin-left: 5rem;
+    }
+    #about .about .about-image .main {
+        width: 34rem;
+        height: 40rem;
+        margin-top: 25rem;
+    }
+    #about .about .about-image .mini {
+        height: 30rem;
+        width: 17rem;
+        margin-left: 17rem;
+    }
+    #procedure .procedure {
+        height: 30vh;
+    }
+    #procedure .procedure>h2 {
+        font-size: 27px;
+    }
+    #procedure .procedure>p {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: 0rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 5rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 7rem;
+    }
+    #foot .footer .footer-content .feed p {
+        font-size: 2rem;
+    }
+    #foot .footer .footer-content .feed input[type=email] {
+        margin-left: 22rem;
+        width: 35rem;
+    }
+}
+
+@media(max-width: 340px) {
+    html {
+        font-size: 50%;
+    }
+    #header {
+        height: 35vh;
+    }
+    #about .about .about-image {
+        margin-left: 7rem;
+    }
+    #about .about .about-image .main {
+        width: 24rem;
+        height: 30rem;
+    }
+    #about .about .about-image .mini {
+        height: 20rem;
+        width: 12rem;
+        margin-left: 12rem;
+    }
+    #procedure .procedure {
+        height: 25vh;
+    }
+    #procedure .procedure>h2 {
+        font-size: 20px;
+    }
+    #testimony .testimony .testimonials-images img {
+        margin-left: -2rem;
+    }
+    #foot .footer .footer-content .cali p {
+        margin-left: 3rem;
+    }
+    #foot .footer .footer-content .new p {
+        margin-left: 5rem;
+    }
+    #foot .footer .footer-content .feed p {
+        font-size: 1.5rem;
+    }
+}

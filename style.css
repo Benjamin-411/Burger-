@@ -1,0 +1,652 @@
+    /* #ffc107
+#fd7e14 */
+    
+     :root {
+        --yellow: #ffc107;
+        --orange: #fd7e14;
+        --red: #c72727;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: #fafafa;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    /* utility */
+    
+    .btn {
+        padding: 1.4rem 4rem;
+        color: #f2c64d;
+        border: .2rem solid #f2c64d;
+        background: transparent;
+        font-family: sans-serif;
+        border-radius: 5rem;
+        font-size: 3rem;
+        font-weight: 60rem;
+    }
+    
+    .btn:hover {
+        color: #fff;
+        background: #f2c64d;
+    }
+    
+    .btn-primary {
+        display: block;
+        color: #F0542C;
+        border: .2rem solid #F0542C;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        padding: 2.5rem 4rem;
+        border-radius: 3rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    
+    .btn-primary:hover {
+        background: #F0542C;
+        color: #fff;
+    }
+    
+    .btn-pres {
+        padding: 1rem 3rem;
+        color: #fff;
+        border: .2rem solid #f2c64d;
+        background: #f2c64d;
+        font-family: sans-serif;
+        border-radius: 4rem;
+        font-size: 2.7rem;
+        font-weight: 40rem;
+    }
+    
+    .btn-pres:hover {
+        background: transparent;
+        color: #f2c64d;
+    }
+    
+    .text {
+        line-height: 1.5;
+        font-family: sans-serif;
+        font-size: 2rem;
+        color: #6E6E6E;
+        font-weight: 400;
+    }
+    
+    .text-p {
+        margin-top: .7rem;
+        font-size: 3rem;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: #F0542C;
+    }
+    
+    .text-h4 {
+        padding-top: 10rem;
+        margin-bottom: 1rem;
+        font-family: "Pacifico", cursive;
+        color: #f2c64d;
+        font-size: 4rem;
+        font-weight: 400
+    }
+    
+    .text-h2 {
+        font-size: 6rem;
+        font-weight: 700;
+        color: #1A0D01;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .p-1 {
+        margin-bottom: 2rem;
+    }
+    /* Navigation */
+    
+    #nav-bar {
+        padding: 0 .5rem;
+        background: #111;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    
+    #nav-bar .nav-bar {
+        display: grid;
+        grid-template-columns: 9fr .5fr 9fr 5fr;
+        align-items: center;
+        color: #fff;
+        font-size: 2.5rem;
+    }
+    
+    #nav-bar img {
+        justify-self: center;
+        padding-left: 5rem;
+    }
+    
+    #nav-bar ul {
+        list-style: none;
+    }
+    
+    #nav-bar ul li {
+        display: inline-block;
+        padding-left: .3rem;
+        position: relative;
+    }
+    
+    #nav-bar ul li:hover {
+        cursor: pointer;
+        color: #f2c64d;
+    }
+    
+    #nav-bar ul li:hover a {
+        color: #7c6f4d;
+    }
+    
+    #nav-bar ul li ul {
+        display: none;
+    }
+    
+    #nav-bar a {
+        justify-self: end;
+        padding-right: 1rem;
+    }
+    
+    #nav-bar .social {
+        padding-left: 39rem;
+    }
+    
+    #nav-bar .social a {
+        padding: 0 1rem;
+    }
+    
+    #nav-bar .social a:hover {
+        color: #f2c64d;
+    }
+    /* dropdown show */
+    
+    #nav-bar ul li:hover ul {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 200px;
+        margin-top: 1rem;
+    }
+    
+    #nav-bar ul li:hover ul li {
+        display: block;
+        background: #fff;
+        padding: 1rem;
+    }
+    
+    #nav-bar ul li:hover ul li a {
+        color: #111;
+    }
+    /* header */
+    
+    #header {
+        color: #fff;
+        background: #333;
+        position: relative;
+        height: 100vh;
+    }
+    
+    #header:before {
+        content: '';
+        background: url('./images/Burger_pres.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+    
+    #header .header-content {
+        text-align: center;
+        padding-top: 19rem;
+        position: relative;
+    }
+    
+    #header .header-content h6 span {
+        background: url('./images/big\ deal.png') no-repeat center center/cover;
+        font-size: 4rem;
+        padding: 1rem 2rem;
+    }
+    
+    #header .header-content h2 {
+        font-family: "Paytone one", sans-serif;
+        font-size: 12rem;
+        margin-top: 1rem;
+        line-height: 1;
+    }
+    
+    #header .header-content h3 {
+        font-size: 14rem;
+        font-family: "Pacifico", cursive;
+        margin-top: -9rem;
+        color: #f2c64d;
+        position: relative;
+    }
+    /* section: burger-menu */
+    
+    #burger-menu .burger-menu>h4,
+    #burger-menu .burger-menu>h2 {
+        text-align: center;
+    }
+    
+    #burger-menu .burgers {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        padding: 5rem 10rem;
+        grid-gap: 5rem;
+    }
+    
+    #burger-menu .burgers .burger-list {
+        display: flex;
+    }
+    
+    #burger-menu .burgers img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+    }
+    
+    #burger-menu .burger-list div {
+        /* align-self: center; */
+        padding-left: 2rem;
+        margin-top: 4rem;
+    }
+    
+    #burger-menu .burger-list div>h6 {
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+        margin-bottom: .7rem;
+    }
+    
+    #burger-menu .burger-menu .btn-menu {
+        text-align: center;
+    }
+    /* section: president */
+    
+    #president .president {
+        display: flex;
+        height: 70vh;
+        margin-top: 8rem;
+    }
+    
+    #president .president .pres-left {
+        background: url('./images/Burger_pres.jpg') no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+        transition: all 2s;
+    }
+    
+    #president .president .pres-left:hover {
+        transform: scale(1.04);
+    }
+    
+    #president .president .pres-right {
+        background: url('./images/Burger_pres_1.jpg') no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+        transition: all 2s
+    }
+    
+    #president .president .pres-right:hover {
+        transform: scale(1.04);
+    }
+    
+    #president .container {
+        padding: 45rem 10rem 2rem 4rem;
+    }
+    
+    .p {
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: .3rem;
+    }
+    
+    .h {
+        font-size: 3.4rem;
+        color: #FFFFFF;
+        /* position: relative;
+    z-index: 8; */
+        font-weight: 700;
+    }
+    
+    .p2 {
+        font-size: 1.6rem;
+        color: #E8E8E8;
+        line-height: 2;
+        /* position: relative;
+    z-index: 1; */
+        margin-top: .9rem;
+        margin-bottom: 1.8rem;
+        width: 80%;
+    }
+    /* section: About */
+    
+    #about {
+        padding: 10rem 7rem;
+    }
+    
+    #about .about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-gap: 6rem; */
+    }
+    
+    #about .about .about-image {
+        margin-left: 10rem;
+    }
+    
+    #about .about .about-image .mini {
+        margin-top: -45rem;
+        margin-left: 23.5rem;
+    }
+    
+    #about .about-content {
+        margin-left: -10rem;
+    }
+    
+    #about .about-content>h5 {
+        font-family: "Pacifico", cursive;
+        font-size: 4rem;
+        color: #f2c64d;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+    
+    #about .about-content>h2 {
+        text-transform: uppercase;
+        font-size: 6rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+    
+    #about .about-content>p {
+        margin-top: 1rem;
+        word-spacing: 2.5;
+        line-height: 2;
+        color: #4D4D4D;
+        font-weight: 200;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        font-family: "Ralewey", sans-serif;
+    }
+    
+    #about .about-content img {
+        margin-top: 12rem;
+    }
+    /* section: procedure */
+    
+    #procedure .procedure-p {
+        width: 100%;
+        position: relative;
+    }
+    
+    #procedure .procedure {
+        text-align: center;
+        position: relative;
+        color: #fff;
+        height: 80vh;
+        background: #333;
+    }
+    
+    #procedure .procedure:before {
+        content: "";
+        background: url('./images/video.png') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+    }
+    
+    #procedure .procedure>h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Paytone One", sans-serif;
+        text-transform: uppercase;
+        font-size: 7rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+    
+    #procedure .procedure>p {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+        font-family: "Montserrat", sans-serif;
+        word-spacing: 1.2;
+    }
+    /* Section: Testimonials */
+    
+    #testimony .testimony {
+        text-align: center;
+        padding: 5rem 0;
+    }
+    
+    #testimony .testimony .testimony-content h5 {
+        font-family: "Pacifico", cursive;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #f2c64d;
+    }
+    
+    #testimony .testimony .testimony-content h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    
+    #testimony .testimony .testimony-content p {
+        color: #040E27;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        padding: 0 21rem;
+        margin-bottom: 2rem;
+    }
+    
+    #testimony .testimony .testimonial-img {
+        margin-bottom: 10rem;
+    }
+    
+    #testimony .testimony .testimonial-img p {
+        color: #040E27;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: .5rem;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    #testimony .testimony .testimonial-img .fas {
+        color: #f2c64d;
+    }
+    
+    #testimony .testimony .testimonials-images img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    /*footer */
+    
+    #foot {
+        background: #f5fbff;
+    }
+    
+    #foot .footer {
+        padding: 0 8rem;
+    }
+    
+    #foot .footer .footer-content {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        /* grid-gap: 1rem; */
+        margin-bottom: 5rem;
+    }
+    
+    #foot .footer .footer-content h2 {
+        margin-bottom: 3rem;
+        margin-top: 8rem;
+        font-size: 4rem;
+    }
+    
+    #foot .footer .footer-content .new p,
+    #foot .footer .footer-content .cali p {
+        color: #6e6e6e;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.7;
+        padding: 0 5rem;
+        margin-bottom: .7rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #foot .footer .footer-content a {
+        color: #F0542C;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 28px;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    #foot .footer .footer-content .feed p {
+        padding: 0;
+        font-size: 2rem;
+    }
+    
+    #foot .footer .footer-content .new,
+    #foot .footer .footer-content .cali,
+    #foot .footer .footer-content .feed {
+        text-align: center;
+    }
+    
+    #foot .footer .footer-content .feed h2 {
+        margin-left: -9rem;
+    }
+    
+    #foot .footer .footer-content .feed input[type=email] {
+        height: 4rem;
+        width: 40rem;
+        padding: 2rem;
+        border-radius: 2rem;
+        border: 1px solid #E8E8E8;
+        font-size: 1.6rem;
+        background: #f5fbff;
+        margin-bottom: 2rem;
+    }
+    
+    #foot .footer .footer-content .feed button[type=submit] {
+        width: 10rem;
+        height: 3.5rem;
+        margin-left: -11rem;
+        border-radius: 2rem;
+        background: #f05420;
+        color: #fff;
+        font-size: 2rem;
+        border: 1px solid #f05420;
+        cursor: pointer;
+    }
+    
+    #foot .footer .social-footer {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    #foot .footer .social-footer a {
+        color: #f05420;
+    }
+    
+    #foot .footer .social-footer a i {
+        padding: 2rem;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px dashed #f0542c;
+        margin-left: .5rem;
+        font-size: 3rem;
+    }
+    
+    #foot .footer .social-footer a i:hover {
+        color: #fff;
+        background: #f0542c;
+    }
+    
+    #foot .footer-base {
+        text-align: center;
+        border-top: 2px solid #f5f5f5;
+    }
+    
+    #foot .footer-base p {
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 300;
+        color: #4D4D4D;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #foot .footer-base p a {
+        color: #F0542C;
+        font-weight: 200;
+    }
+    /* remove
+    #foot .footer {
+        padding: 0 1rem;
+    }
+    
+    #foot .footer .footer-content .cali {
+        margin-left: 10rem;
+    }
+    
+    #foot .footer .footer-content .new {
+        margin-left: 4rem;
+    }
+    
+    #foot .footer .footer-content>*:last-child {
+        grid-column: 1 / span 3;
+        margin-left: -22rem;
+        margin-top: -7rem;
+    }
+    
+    #foot .footer .footer-content p {
+        padding: 0;
+        width: 14rem;
+    }
+    
+    #foot .footer .footer-content .feed input[type=email] {
+        width: 43rem;
+        margin-left: 22rem;
+    }
+    
+    #foot .footer .footer-content .feed p {
+        margin-left: 23rem;
+        width: 20rem;
+    } */
