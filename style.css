@@ -7,9 +7,7 @@
         --red: #c72727;
     }
     
-    *,
-*::before,
-*::after{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -178,6 +176,13 @@
     #nav-bar .social a:hover {
         color: #f2c64d;
     }
+    
+    .menu-wrap .toggler {
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 0;
+    }
     /* dropdown show */
     
     #nav-bar ul li:hover ul {
@@ -314,7 +319,7 @@
     }
     
     #president .container {
-        padding: 45rem 10rem 2rem 4rem;
+        padding: 40rem 10rem 2rem 4rem;
     }
     
     .p {
