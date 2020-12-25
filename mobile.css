@@ -18,9 +18,9 @@
     #president .president {
         height: 50vh;
     }
-    #president .container {
+/*     #president .container {
         padding: 40rem 10rem 2rem 4rem;
-    }
+    } */
     #about {
         padding: 10rem 10rem;
     }
@@ -894,6 +894,9 @@
         width: 17rem;
         margin-left: 17rem;
     }
+     #president .container {
+        padding: 2rem 10rem 2rem 4rem;
+    }
     #procedure .procedure {
         height: 30vh;
     }
@@ -926,9 +929,9 @@
     #procedure .procedure>p {
         margin-top: 0rem;
     }
-    #president .container {
+/*     #president .container {
         padding: 1rem 10rem 2rem 4rem;
-    }
+    } */
 }
 
 @media(max-width: 320px) {
